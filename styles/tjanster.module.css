@@ -1,0 +1,218 @@
+
+.tjanstermain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    color: var(--text1-color);
+}
+
+.tjansterImage img{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    display: block; /* För att ta bort eventuella mellanrum runt bilden */
+    margin: auto; /* Centrerar bilden vertikalt och horisontellt */
+    
+ 
+}
+
+.JobbaMedMig{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 0.3rem solid #237C91;
+
+}
+.Webbinarier{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.Webbinarier img{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    display: block; /* För att ta bort eventuella mellanrum runt bilden */
+    margin: auto; /* Centrerar bilden vertikalt och horisontellt */
+}
+.bokningsknapp{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.JobbaMedMig h1{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.Webbinarier h1{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.JobbaMedMig h1{
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+.JobbaMedMig p{
+    padding: 1rem 1rem 1rem 1rem;
+   font-size: 0.9rem;
+}
+.JobbaMedMig ul{
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 0.9rem;
+ }
+.Webbinarier p{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.9rem;
+ }
+
+
+.paketbutton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+ /* Styles for smaller tablets */
+@media (min-width: 768px) and (max-width: 819px) {
+
+    .Webbinarier h1{
+        font-size: 3rem;
+    }
+    .JobbaMedMig{
+        width: 400px;
+        height: auto;
+    
+    }
+    .Webbinarier{
+        width: 400px;
+        height: auto;
+    }
+    
+    .JobbaMedMig h2{
+        font-size: 2rem;
+    }
+    .Webbinarier h2{
+        font-size: 2rem; 
+    }
+  
+    
+    .JobbaMedMig p{
+        margin-top: 2rem;
+       font-size: 2rem;
+    }
+    .Webbinarier p{
+        margin-top: 2rem;
+        font-size: 2rem;
+     }
+     .bokningsknapp{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+    
+    /* Styles for desktop */
+    @media (min-width: 820px) {
+    
+        .Webbinarier h1{
+            font-size: 3rem;
+        }
+        .Webbinarier{
+            width: 400px;
+            height: auto;
+        
+        }
+        .JobbaMedMig{
+            width: 400px;
+            height: auto;
+        }
+        
+        .Webbinarier h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        .JobbaMedMig h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        
+        .JobbaMedMig p{
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        .Webbinarier p{
+            margin-top: 2rem;
+            font-size: 2rem;
+         }
+         .bokningsknapp{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        }
+        
+    
+    /* Styles for large desktops */
+    @media (min-width: 1024px) {
+    
+        .tjanster h1{
+            font-size: 3rem;
+        }
+        .Webbinarier{
+            width: 400px;
+            height: auto;
+        
+        }
+        .JobbaMedMig{
+            width: 400px;
+            height: auto;
+        }
+        
+        .JobbaMedMig h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        .Webbinarier h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        
+        .Webbinarier p{
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        .JobbaMedMig p{
+            margin-top: 2rem;
+            font-size: 2rem;
+         }
+         .bokningsknapp{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    /* Styles for large desktops */
+    @media (min-width: 1200px) {
+        
+    }

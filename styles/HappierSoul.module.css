@@ -1,0 +1,62 @@
+/* mobile first */
+
+.HappierSoulMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    border-bottom: 0.3rem solid #237C91;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.HappierSoulBody
+{
+    font-size: 1rem;
+    color: var(--text1-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactButton{
+    margin-bottom: 2rem;
+}
+/* Styles for smaller tablets */
+@media (min-width: 768px) and (max-width: 819px) {
+
+.HappierSoulMain h1{
+    font-size: 2rem;
+}
+
+.HappierSoul-body{
+padding: 2rem;
+}
+.HappierSoul-body p{
+    font-size: 1.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+}
+
+/* Styles for desktop */
+@media (min-width: 820px) {
+
+.HappierSoul-body p {
+    font-size: 1.7rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+
+}
+
+/* Styles for large desktops */
+@media (min-width: 1024px) {
+  
+}
+
+/* Styles for large desktops */
+@media (min-width: 1200px) {}

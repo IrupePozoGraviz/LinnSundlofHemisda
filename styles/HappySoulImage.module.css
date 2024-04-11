@@ -1,0 +1,11 @@
+.LinnEttBild{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    display: block; /* För att ta bort eventuella mellanrum runt bilden */
+    margin: auto; /* Centrerar bilden vertikalt och horisontellt */
+}

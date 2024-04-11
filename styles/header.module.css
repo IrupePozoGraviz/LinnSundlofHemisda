@@ -1,0 +1,52 @@
+.mainHeader{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    border-bottom: 0.3rem solid #237C91;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.mainHeader h1{
+	margin-bottom: 1rem;
+}
+
+@media (min-width: 768px){
+	.svgContainer svg {
+		display: block; /* To prevent display inline default spaces */
+		width: auto;    /* Sets the SVG width to scale with its container */
+		height: auto;   /* Scales the height while maintaining the aspect ratio */
+		max-width: 1443px; /* Optional: if you want to limit the maximum width */
+	  }
+}
+@media (min-width: 820px){
+	.logo img{
+		width: 100%;
+	
+	}
+	.Navigate{
+		margin-top: 1rem;
+	
+	}
+}
+
+@media (min-width: 1800px){
+	.mainHeader{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+	
+	
+	}
+}

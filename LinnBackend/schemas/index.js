@@ -1,0 +1,20 @@
+import blockContent from './blockContent'
+import StartBild from './image1'
+import ImageTwo from './image2'
+import pictureOfMe from './image3'
+import JobbaMedMig from './JobbaMedMig'
+import Ommig from './om-mig'
+import Happy from './HappySoul'
+import Webinarie from './Webinarie'
+import paketEtt from './paketEtt'
+import paketTva from './paketTva'
+import paketTre from './paketTre'
+import PaketFyra from './paketFyra'
+import menyEtt from './navEtt'
+import menyTva from './menyTva'
+import menyTre from './menyTre'
+import menyFyra from './menyFyra'
+import menyFem from './menyFem'
+
+
+export const schemaTypes = [Happy,StartBild, ImageTwo,JobbaMedMig,Webinarie,paketEtt, paketTva, paketTre, PaketFyra, Ommig, pictureOfMe,  blockContent,  menyEtt, menyTva, menyTre, menyFyra, menyFem]

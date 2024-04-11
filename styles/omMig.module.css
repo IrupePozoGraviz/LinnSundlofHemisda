@@ -1,0 +1,107 @@
+.OmMigMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    border-bottom: 0.3rem solid #237C91;
+    margin-bottom: 1rem;
+
+}
+.omMigBody{
+    font-size: 1rem;
+    color: var(--text1-color);
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LinnImage img{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    display: block; /* För att ta bort eventuella mellanrum runt bilden */
+    margin: auto; /* Centrerar bilden vertikalt och horisontellt */
+}
+.OmMigMain h1{
+    font-size: 2rem;
+   padding: 1rem;
+}
+.omMigBody p{
+    color: var(--text1-color);
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+
+/* Styles for smaller tablets */
+@media (min-width: 768px) and (max-width: 819px) {
+    .OmMig h1{
+        font-size: 3rem;
+          padding-bottom: 1rem;
+      }
+      .Ommig-grid p{
+          font-size: 2rem;
+      
+      
+      }
+}
+
+
+
+/* Styles for desktop */
+@media (min-width: 820px) {
+    .OmMig h1{
+        font-size: 3rem;
+          padding-bottom: 1rem;
+      }
+      .Ommig-grid p{
+          font-size: 2rem;
+      
+      
+      }
+}
+
+/* Styles for large desktops */
+@media (min-width: 1024px) {
+        .OmMig{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            align-items: center;
+            justify-content: center;
+        }
+        .Ommig-grid{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 4rem;
+        }
+    .OmMig h1{
+        font-size: 3rem;
+          text-align: center;
+      }
+      .Ommig-grid p{
+          font-size: 2rem;
+          padding: 2rem;
+      
+      
+      } 
+      .LinnImage{
+        width: 100%;
+        margin: 4rem 2rem 1rem 2rem;
+        padding: 1rem;
+    }
+}
+
+/* Styles for large desktops */
+@media (min-width: 1200px) {}
