@@ -6,7 +6,6 @@
     justify-content: center;
     align-content: center;
     width: 100%;
-    border-bottom: 0.3rem solid #237C91;
     margin-bottom: 1rem;
     padding-top: 2rem;
 }
@@ -19,6 +18,11 @@
 
 .mainHeader h1{
 	margin-bottom: 1rem;
+}
+
+.svgs{
+width: 100%; /* Make the SVG fill the width of its container */
+height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 
 @media (min-width: 768px){
