@@ -11,9 +11,8 @@
 
 }
 .omMigBody{
-    font-size: 1rem;
     color: var(--text1-color);
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,12 +30,10 @@
     margin: auto; /* Centrerar bilden vertikalt och horisontellt */
 }
 .OmMigMain h1{
-    font-size: 2rem;
    padding: 1rem;
 }
 .omMigBody p{
     color: var(--text1-color);
-    font-size: 1rem;
     padding: 1rem 1rem 1rem 1rem;
 
 }

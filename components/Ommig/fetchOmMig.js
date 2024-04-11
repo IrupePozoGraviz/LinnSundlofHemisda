@@ -44,9 +44,6 @@ const Text4Component = () => {
               <BlockContent blocks={item.body} />
             </section>
           ))}
-             <button onClick={openModal} className={style.contactButton} aria-label="Kontakta mig">
-          Kontakta mig
-        </button>
         </div>
         
       )}

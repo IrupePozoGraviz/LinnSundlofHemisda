@@ -10,11 +10,7 @@ import paketEtt from './paketEtt'
 import paketTva from './paketTva'
 import paketTre from './paketTre'
 import PaketFyra from './paketFyra'
-import menyEtt from './navEtt'
-import menyTva from './menyTva'
-import menyTre from './menyTre'
-import menyFyra from './menyFyra'
-import menyFem from './menyFem'
 
 
-export const schemaTypes = [Happy,StartBild, ImageTwo,JobbaMedMig,Webinarie,paketEtt, paketTva, paketTre, PaketFyra, Ommig, pictureOfMe,  blockContent,  menyEtt, menyTva, menyTre, menyFyra, menyFem]
+
+export const schemaTypes = [Happy,StartBild, ImageTwo,JobbaMedMig,Webinarie,paketEtt, paketTva, paketTre, PaketFyra, Ommig, pictureOfMe,  blockContent]
