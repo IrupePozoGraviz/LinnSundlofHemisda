@@ -26,12 +26,7 @@ height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 
 @media (min-width: 768px){
-	.svgContainer svg {
-		display: block; /* To prevent display inline default spaces */
-		width: auto;    /* Sets the SVG width to scale with its container */
-		height: auto;   /* Scales the height while maintaining the aspect ratio */
-		max-width: 1443px; /* Optional: if you want to limit the maximum width */
-	  }
+	
 }
 @media (min-width: 820px){
 	.logo img{

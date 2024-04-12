@@ -1,25 +1,19 @@
 .footerGrid{
     display: flex;
 flex-direction: column;
-    background-color: var(--primary-color);
-    padding: 20px;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: var(--text1-color);
+    
 }
-
+.svgs{
+    width: 100%; /* Make the SVG fill the width of its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    }
 .Socials {
     display: flex;
     justify-content: center;
     gap: 20px; /* This sets space between the child elements */
-    margin: 1rem;
 }
 
-.instagram, .facebook, .youtube {
-    display: inline-block;
-    width: 10%; /* Adjust if necessary */
-}
 .instagram{
     fill: #C13584; /* Facebook blue */
     display: inline-block;
