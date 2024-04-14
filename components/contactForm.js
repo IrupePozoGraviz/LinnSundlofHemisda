@@ -2,7 +2,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import styles from '@/styles/modalForm.module.css'
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm('mgegnprd');
+  const [state, handleSubmit] = useForm('xxxxx');
   if (state.succeeded) {
     return <p className="message">Tack för ditt meddelande! Jag kommer att kontakta dig snart.</p>;
   }
@@ -30,19 +30,19 @@ const ContactForm = () => {
           <div>
             <label>
               <input type="checkbox" name="paket" value="paket1" />
-              Rådgivning
+              Happy Soul
             </label>
             <label>
               <input type="checkbox" name="paket" value="paket2" />
-              Tappning
+              Paket 2
             </label>
             <label>
               <input type="checkbox" name="paket" value="paket3" />
-              Gratis konsultation 30 min
+              Gratis konsultation
             </label>
             <label htmlFor="paket4">
               <input type="checkbox" name="paket" value="paket4" id="paket4" />
-              Övrigt
+             Ja tack jag vill prenumerera på ditt nyhetsbrev
             </label>
           </div>
         </div>

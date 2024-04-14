@@ -4,28 +4,37 @@ flex-direction: column;
     text-align: center;
     
 }
-.svgs{
-    width: 100%; /* Make the SVG fill the width of its container */
-    height: auto; /* Automatically adjust the height to maintain aspect ratio */
-    }
+.footerGrid h3{
+    padding: 0.5rem;
+}
+.footerGrid h4{
+    padding: 0.5rem;
+}
+
 .Socials {
     display: flex;
     justify-content: center;
     gap: 20px; /* This sets space between the child elements */
+    padding-top: 0.5rem;
 }
 
 .instagram{
     fill: #C13584; /* Facebook blue */
     display: inline-block;
-    width: 10%; 
+    width: 9%; 
 }
 .youtube{
     fill: #FF0000; /* Facebook blue */
     display: inline-block;
-    width: 10%;   
+    width:12%;   
 }
 .facebook{
     fill: #4267B2; /* Facebook blue */
     display: inline-block;
-    width: 12%;
+    width: 10%;
 }
+
+.svgs{
+    width: 100%; /* Make the SVG fill the width of its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    }
