@@ -26,26 +26,21 @@ height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 
 @media (min-width: 768px){
-	
+	.mainHeader h1{
+		margin-top: 2rem;
+		font-size: 3rem;
+	}
 }
 @media (min-width: 820px){
-	.logo img{
-		width: 100%;
-	
-	}
-	.Navigate{
-		margin-top: 1rem;
-	
+	.mainHeader h1{
+		margin-top: 2rem;
+		font-size: 3rem;
 	}
 }
 
-@media (min-width: 1800px){
-	.mainHeader{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: flex-start;
-	
-	
+@media (min-width: 1024px){
+	.mainHeader h1{
+		margin-top: 2rem;
+		font-size: 4rem;
 	}
 }
