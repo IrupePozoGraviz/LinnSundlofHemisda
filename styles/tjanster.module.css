@@ -29,9 +29,11 @@
 .JobbaMedMig{
     display:flex;
     flex-direction: column;
-    padding: 1rem;
-    border-bottom: 0.3rem solid #237C91;
+    padding: 2rem;
 
+}
+.sectionEtt{
+    border-bottom: 0.2rem solid #237C91;
 }
 .Webbinarier{
     display:flex;
@@ -71,7 +73,7 @@
 
 
 .JobbaMedMig p{
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.5;
 }
 .JobbaMedMig ul{
     padding: 1rem 2rem 1rem 2rem;

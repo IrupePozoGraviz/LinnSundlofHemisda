@@ -23,7 +23,8 @@
     padding: 1rem;
 }
 .HappierSoulBody ul {
-    padding: 1.3rem;
+    padding: 2rem;
+    font-size: 1rem;
 }
 .HappierSoulBody h1 {
   text-align: center;
@@ -42,26 +43,43 @@
 .HappierSoul-body{
 padding: 2rem;
 }
-.HappierSoul-body p{
+.HappierSoulBody ul {
+    padding: 2rem;
     font-size: 1.5rem;
-    padding: 1rem 1rem 1rem 1rem;
 }
 }
 
 /* Styles for desktop */
 @media (min-width: 820px) {
 
-.HappierSoul-body p {
-    font-size: 1.7rem;
-    padding: 1rem 1rem 1rem 1rem;
-}
 
-
+    .HappierSoulMain h1{
+        font-size: 4rem;
+    }
+    
+    .HappierSoul-body{
+    padding: 2rem;
+    }
+    .HappierSoulBody ul {
+        padding: 3rem;
+        font-size: 1.7rem;
+    }
 }
 
 /* Styles for large desktops */
 @media (min-width: 1024px) {
-  
+
+    .HappierSoulMain h1{
+        font-size: 4rem;
+    }
+    
+    .HappierSoul-body{
+    padding: 2rem;
+    }
+    .HappierSoulBody ul {
+        padding:4rem;
+        font-size: 2rem;
+    }
 }
 
 /* Styles for large desktops */
