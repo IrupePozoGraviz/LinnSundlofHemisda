@@ -40,8 +40,8 @@ font-size: 1.125rem;
     }
     .BookingButton{
         font-size: 1.5rem;
-        background-color: var(--secondary-color);
-        color: var(--third-color);
+        background-color: var(--text1-color);
+    color: var(--primary-color);
         width: 20vh;
         border: none;
         border-radius: 0.625rem; /* 10px */

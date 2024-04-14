@@ -41,7 +41,7 @@ const PaketEtt = () => {
   return (
     <div className={styles.paketText} aria-live="polite">
       {paketEttData && paketEttData.map((item) => (
-        <article key={item._id} className={styles.pakettext}>
+        <article key={item._id} className={styles.paketBox}>
           {item.mainImageUrl && (
                 <Image src={item.mainImageUrl} alt={item.title} 
                 width={600} // Set the intrinsic size of the image
