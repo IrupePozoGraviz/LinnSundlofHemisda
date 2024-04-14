@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import createClient from '@/client';
 import BlockContent from '@sanity/block-content-to-react';
 import styles from '@/styles/tjanster.module.css'
-import { BookingButton } from '@/components/bookingButton';
+import button from '@/styles/button.module.css'
+import Link from 'next/link'
 import Image from 'next/image'
 
 const SectionThree = () => {
@@ -19,7 +20,9 @@ const SectionThree = () => {
             title,
             body,
             pris,
-            "mainImageUrl": mainImage.asset->url // This line fetches the main image URL
+            "mainImageUrl": mainImage.asset->url,
+            buttonText,
+            buttonUrl
         }`
       )
       .then((data) => {
@@ -47,9 +50,13 @@ const SectionThree = () => {
           <h1>{item.title}</h1>
           <BlockContent blocks={item.body} />
           <p>{item.pris}</p>
-          <div className={styles.paketbutton}>
-            <BookingButton aria-label={`Book ${item.title}`} /> 
+          {item.buttonText && item.buttonUrl && (
+            <div className={styles.bokningsknapp}>
+              <Link href={item.buttonUrl}>
+                <button type='button' className={button.contactButton}>{item.buttonText}</button>
+              </Link>
           </div>
+          )}
         </article>
       ))}
     </div>

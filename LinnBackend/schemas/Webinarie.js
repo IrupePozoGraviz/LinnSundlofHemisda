@@ -29,7 +29,25 @@ export default defineType({
       title: 'Pris',
       type: 'string',
     }),
-  ],
+   // Lägg till fält för knappens text
+   defineField({
+    name: 'buttonText',
+    title: 'Button Text',
+    type: 'string',
+    description: 'Text to display on the button',
+  }),
+  // Lägg till fält för URL
+  defineField({
+    name: 'buttonUrl',
+    title: 'Button URL',
+    type: 'url',
+    description: 'The URL the button will link to',
+    validation: (Rule) => Rule.uri({
+      allowRelative: true, // tillåt relativa länkar om nödvändigt
+      scheme: ['http', 'https', 'mailto', 'tel']
+    })
+  }),
+],
 
   preview: {
     select: {
