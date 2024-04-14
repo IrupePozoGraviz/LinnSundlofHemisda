@@ -38,3 +38,34 @@ flex-direction: column;
     width: 100%; /* Make the SVG fill the width of its container */
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
     }
+
+    /* Styles for smaller tablets */
+@media (min-width: 768px) and (max-width: 819px) {
+  
+
+}
+
+
+
+/* Styles for desktop */
+@media (min-width: 820px) {
+  
+}
+
+/* Styles for large desktops */
+@media (min-width: 1024px) {
+    .footerGrid h3{
+        padding: 0.5rem;
+        font-size: 2.5rem;
+        
+    }
+    .footerGrid h4{
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+}
+
+/* Styles for large desktops */
+@media (min-width: 1200px) {
+  
+}

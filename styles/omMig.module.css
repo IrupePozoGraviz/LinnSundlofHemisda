@@ -8,6 +8,7 @@
     width: 100%;
     border-bottom: 0.3rem solid #237C91;
     margin-bottom: 1rem;
+    padding: 1rem;
 
 }
 .omMigBody{
@@ -31,6 +32,7 @@
 }
 .OmMigMain h1{
    padding: 1rem;
+   text-align: center;
 }
 .omMigBody p{
     color: var(--text1-color);
@@ -42,63 +44,76 @@
 
 /* Styles for smaller tablets */
 @media (min-width: 768px) and (max-width: 819px) {
-    .OmMig h1{
+    .OmMigMain h1{
+        padding: 1rem;
+        text-align: center;
         font-size: 3rem;
-          padding-bottom: 1rem;
-      }
-      .Ommig-grid p{
-          font-size: 2rem;
-      
-      
-      }
+     }
+     .omMigBody p{
+      font-size: 1.5rem;
+     
+     }
 }
 
 
 
 /* Styles for desktop */
 @media (min-width: 820px) {
-    .OmMig h1{
-        font-size: 3rem;
-          padding-bottom: 1rem;
-      }
-      .Ommig-grid p{
-          font-size: 2rem;
-      
-      
-      }
+    .OmMigMain h1{
+        padding: 1rem;
+        text-align: center;
+        font-size: 4rem;
+     }
+     .omMigBody p{
+      font-size: 1.5rem;
+     
+     }
 }
 
 /* Styles for large desktops */
 @media (min-width: 1024px) {
-        .OmMig{
-            display: grid;
-            grid-template-columns: 1fr 1fr ;
-            align-items: center;
-            justify-content: center;
-        }
-        .Ommig-grid{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 4rem;
-        }
-    .OmMig h1{
-        font-size: 3rem;
-          text-align: center;
-      }
-      .Ommig-grid p{
-          font-size: 2rem;
-          padding: 2rem;
-      
-      
-      } 
-      .LinnImage{
-        width: 100%;
-        margin: 4rem 2rem 1rem 2rem;
-        padding: 1rem;
+    .LinnImage img{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        display: block; /* För att ta bort eventuella mellanrum runt bilden */
+        margin: auto; /* Centrerar bilden vertikalt och horisontellt */
     }
+    .OmMigMain h1{
+        padding: 1rem;
+        text-align: center;
+        font-size: 4rem;
+     }
+     .omMigBody p{
+      font-size: 1.5rem;
+     
+     }
 }
 
 /* Styles for large desktops */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .LinnImage img{
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        display: block; /* För att ta bort eventuella mellanrum runt bilden */
+        margin: auto; /* Centrerar bilden vertikalt och horisontellt */
+    }
+    .OmMigMain h1{
+        padding: 1rem;
+        text-align: center;
+        font-size: 4rem;
+     }
+     .omMigBody p{
+      font-size: 1.5rem;
+     
+     }
+}
